@@ -1,0 +1,305 @@
+/* score-one start*/
+
+.score-one .china-foreign{
+	min-width: 1100px;
+	width: 100%;
+}
+
+.score-one .china-foreign .title{
+	text-align: center;
+	padding-top: 75px;
+}
+
+.score-one .china-foreign .detail{
+	width: 1100px;
+	margin: 0 auto;
+	height:300px;
+	margin-top: 55px;
+}
+.score-one .china-foreign .detail li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.score-one .four-most-god{
+	min-width: 1100px;
+	width: 100%;
+	margin-bottom: 35px;
+}
+.score-one .four-most-god .title{
+	width: 400px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+.four-god-des{
+	width: 1100px;
+	margin: 0 auto;
+	height: 380px;
+	padding-top: 60px;
+
+}
+
+.four-god-des .left{
+	background-color: rgb(245,247,250);
+	width: 490px;
+	height: 280px;
+	float: left;
+	margin-left: 30px;
+}
+.four-god-des .right{
+	background-color: rgb(245,247,250);
+	width: 490px;
+	height: 280px;
+	margin-left: 60px;
+	float: left;
+}
+.four-most-god .has-color{
+	color: rgb(255,255,255);
+	width:490px;
+	background-color: rgb(255,180,0);
+	padding-top: 55px;
+	height:180px;
+	position: relative;
+}
+.four-god-des .one-head{
+	height: 235px;
+	position: absolute;
+	right: 25px;
+	top: -55px;
+	z-index: 2;
+}
+
+.four-god-des .two-head{
+	position: absolute;
+	right: 16px;
+	height: 240px;
+    top: -58px;
+}
+
+.four-god-des .three-head{
+	position: absolute;
+	right: 26px;
+	top: -83px;
+    height: 262px;
+}
+
+.four-god-des .four-head{
+	position: absolute;
+	right: 10px;
+	top: -20px;
+	height: 203px;
+}
+.four-most-god  .no-color{
+	padding-top: 15px;
+	font-size: 15px;
+	font-weight: 600;
+	padding-right: 10px;
+}
+.four-most-god  .no-color li{
+	height: 40px;
+	line-height: 20px;
+}
+.four-most-god .right .has-color{
+	color: rgb(255,255,255);
+	width:490px;
+	background-color: rgb(186,200,32);
+	height:180px;
+	padding-top: 55px;
+}
+.fou-god-fot-li{
+	font-size: 18px;
+}
+.fou-god-top-li{
+	font-size: 26px;
+	font-weight: 600;
+}
+.has-color li{
+	list-style: none;
+}
+
+
+.score-one .inner-banner-ji{
+	width: 100%;
+	margin-bottom: 45px;
+}
+
+.score-one .future-week .title{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 35px;
+}
+.china-foreign .detail .big-title{
+	font-size: 22px;
+	color: #151515;
+	line-height: 56px;
+	height: 56px;
+}
+.china-foreign .detail ul{
+	padding: 0px;
+}
+.china-foreign .detail .smal-des{
+	font-size: 16px;
+	text-align: center;
+}
+.china-foreign .detail li{
+	width: 360px;
+	text-align: center;
+}
+
+.four-most-god .botleft .has-color{
+	background-color: rgb(186,200,32);
+}
+
+.four-most-god .botright .has-color{
+	background-color: rgb(255,180,0);
+}
+.ask-teach{
+	width: 100%;
+	min-width: 1100px;
+	position: relative;
+}
+.ask-teach .ask-teach-inner{
+	position: absolute;
+	top: 0px;
+	min-width: 1100px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+.ask-teach .ask-teach-inner .are-ready{
+	margin-top: 70px;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(210,50,0);
+}
+.ask-teach .ask-teach-inner .zixun-btn{
+	cursor: pointer;
+	width: 390px;
+	height: 70px;
+	background-color:rgb(255,255,255);
+	margin: 0 auto;
+	margin-top:20px;
+	border-radius: 8px;
+	box-shadow: 2px 2px 5px 5px rgb(208,167,0);
+	line-height: 70px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	color: rgb(210,50,0);
+}
+
+.ask-teach .ask-teach-inner .kouhao{
+	margin-top:25px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #D73304;
+}
+.ask-teach .ask-teach-inner .kouhao ul{
+	padding: 0px;
+}
+
+.go-suc-step{
+	width: 100%;
+	margin-bottom: 35px;
+}
+.go-suc-step .title{
+	width: 1100px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.go-suc-step .step-des-des{
+	width: 1100px;
+	margin: 0 auto;
+}
+.go-suc-step .step-des-des .jiantou-fo{
+	margin: 0 0px;
+}
+.go-suc-step .step-des-des .first-line .jiantou-fo{
+	margin: 0 40px;
+}
+.go-suc-step .step-des-des .second-line{
+	padding-right: 72px;
+	text-align: right;
+}
+.go-suc-step .step-des-des .first-line{
+	text-align: right;
+	padding-right: 15px;
+}
+
+.future-week .inner-body{
+	text-align: right;
+	width: 1100px;
+	margin: 0 auto;
+	margin-bottom: 55px;
+	position: relative;
+}
+
+.future-week .inner-body .border{
+	z-index: 10;
+	position: relative;
+	margin-right: 220px;
+	display: inline-block;
+	vertical-align: top;
+	width: 405px;
+	height: 700px;
+	border: 6px solid rgb(255,172,0);
+}
+.future-week .inner-body .border .right{
+	width: 220px;
+	height: 455px;
+	margin-top: 80px;
+	float: right;
+}
+.inner-body .border .right ul{
+	padding-left: 0px;
+	padding-top: 45px;
+	text-align: center;
+	list-style: none;
+	height: 75px;
+	line-height: 75px;
+	font-size: 22px;
+}
+.inner-body .border .right li{
+	margin-top: 10px;
+}
+
+.inner-body .border-line{
+	position: absolute;
+	left: 175px;
+	top:80px;
+	height: 455px;
+	border-left: 2px solid #ccc;
+	z-index: -2;
+}
+
+.inner-body .detail-wraps{
+	position: absolute;
+	width: 570px;
+	height: 580px;
+	top: 46px;
+	background-color: rgb(255,255,255);
+	padding-top: 10px;
+	margin-left: 45px;
+	z-index: 99;
+}
+.inner-body .border .right ul a{
+	display: inline-block;
+	text-decoration: none;
+	height: 75px;
+	width: 100%;
+}
+.inner-body .border .right ul a:hover{
+	background-color: rgb(255,156,0);
+	color: rgb(255,255,255);
+}
+.inner-body .border .right ul .active{
+	
+	
+}
+.inner-body .border .right ul .active a{
+	background-color: rgb(255,156,0);
+	color: rgb(255,255,255);
+}

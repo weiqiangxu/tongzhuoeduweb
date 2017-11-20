@@ -1,0 +1,122 @@
+.try-course .top-title{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #F7394A;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.try-course .one-step{
+	width: 1100px;
+	margin: 0 auto;
+	margin-bottom: 45px;
+}
+
+.try-course .one-step .title{
+	padding-left: 100px;
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FB8C00;
+}
+
+.try-course .one-step .img-des{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.try-course .one-step .img-des img{
+	width: 905px;
+	height: 510px;
+}
+
+.try-course .one-step .content-one{
+	text-align: left;
+	padding-left: 100px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #aaa;
+}
+
+.try-course .mark-b{
+	font-weight: bold;
+	color: #000;
+}
+
+.one-step .fuyure-week-learn{
+	width: 1100px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+.one-step .fuyure-week-learn .title{
+
+}
+.one-step .fuyure-week-learn  .stranger-font{
+	font-size: 30px;
+	text-align: center;
+}
+
+.one-step .fuyure-week-learn .ddes{
+	text-align: center;
+}
+.one-step .fuyure-week-learn .slider{
+	text-align: center;
+}
+.one-step .fuyure-week-learn .slider .bot-tit{
+	color: #ccc;
+}
+.one-step .fuyure-week-learn .col-bot-slider ul{
+	position: relative;
+	z-index: 1;
+	width: 825px;
+	margin: 0 auto;
+	padding-left: 0px;
+}
+
+.one-step .fuyure-week-learn .col-bot-slider li{
+	width: 200px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.one-step .fuyure-week-learn .col-bot-slider  .silent-radiu{
+	background-color: rgb(255,255,255);
+	width: 20px;
+	height: 20px;
+	border: 2px solid #ccc;
+	z-index: 1;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+.one-step .fuyure-week-learn .col-bot-slider  .active-radiu{
+	background-color: rgb(255,255,255);
+	width: 20px;
+	height: 20px;
+	border: 2px solid rgb(255,179,0);
+	z-index: 1;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+.one-step .fuyure-week-learn .col-bot-slider .dess-active{
+	color:rgb(255,179,0);
+}
+
+.one-step .fuyure-week-learn .col-bot-slider ul .one-line{
+	border-bottom:1px solid #ccc;
+	position: absolute;
+	width: 100%;
+	top:19px;
+	z-index: -1;
+}
+
+
+.one-step .fuyure-week-learn .col-bot-slider li p{
+	font-size: 18px;
+}
+
+.bottom-try-curse{
+	margin-bottom: 115px;
+}
