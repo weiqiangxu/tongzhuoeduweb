@@ -275,9 +275,11 @@
 	padding: 0px;
 }
 .login-wrap .head li{
-	display: inline-block;
-	vertical-align: middle;
-	width: 142px;
+	float: left;
+	/*display: inline-block;
+	vertical-align: middle;*/
+	width: 50%;
+	list-style: none;
 	text-align: center;
 	background-color: rgb(24,5,3);
 }
