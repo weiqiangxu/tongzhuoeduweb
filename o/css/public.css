@@ -431,6 +431,7 @@
  	width: 200px;
  	display: inline-block;
  	vertical-align: top;
+ 	position: relative;
  	text-align: center;
  }
 .student-res-list .head-img .student-name{
@@ -439,6 +440,7 @@
 	color: #4FC1E9;
 }
  .student-res-list .res-des{
+ 	position: relative;
  	width: 840px;
   	display: inline-block;
  	vertical-align: top;
@@ -499,4 +501,42 @@
 	display: inline-block;
 	vertical-align: middle;
 	margin-bottom: 20px;
+}
+
+.student-res-list .head-rig-radius{
+	width: 23px;
+	height: 23px;
+	border:2px solid #FF6500;
+	border-radius: 23px;
+	position: absolute;
+	top: 28px;
+	right:-15px;
+	z-index: 10;
+	background-color: white;
+}
+
+.res-des .head-rig-line-middle{
+	border-right: 2px solid #FF6500;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	left: -50px;
+}
+
+
+.res-des .head-rig-line-first{
+	border-right: 2px solid #FF6500;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	left: -50px;
+	margin-top: 32px;
+}
+
+.res-des .head-rig-line-last{
+	border-right: 2px solid #FF6500;
+	height: 32px;
+	position: absolute;
+	z-index: -1;
+	left: -50px;
 }
