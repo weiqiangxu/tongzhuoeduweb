@@ -1346,7 +1346,7 @@ a:hover{
 }
 .inner-body .border .right ul a:hover{
 	background-color: rgb(255,156,0);
-	color: rgb(255,255,255);
+	color: rgb(255,255,255)!important;
 }
 .inner-body .border .right ul .active{
 	

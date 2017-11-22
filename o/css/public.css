@@ -139,6 +139,13 @@
 	line-height: 69px;
 	padding: 0px 25px;text-align: center;
 }
+.top-menu li:hover .no-light-bott{
+	border-color: rgb(255,136,39);
+}
+.top-menu li:hover a{
+	color:  rgb(255,136,39);
+}
+
 .top-menu a{
 	display: inline-block;
 	text-align: middle;
