@@ -1420,9 +1420,12 @@ a:hover{
 }
 .one-step .fuyure-week-learn .slider{
 	text-align: center;
+	background-image: url(../imgs/d163273617.png);
+	background-size: 100% 100%;
 }
 .one-step .fuyure-week-learn .slider .bot-tit{
 	color: #ccc;
+	margin-top: 35px;
 }
 .one-step .fuyure-week-learn .col-bot-slider ul{
 	position: relative;
@@ -1543,9 +1546,12 @@ a:hover{
 }
 .fuyure-week-learn .slider{
 	text-align: center;
+	background-image: url(../imgs/d163273617.png);
+	background-size: 100% 100%;
 }
 .fuyure-week-learn .slider .bot-tit{
 	color: #ccc;
+	margin-top: 35px;
 }
 .fuyure-week-learn .col-bot-slider ul{
 	position: relative;

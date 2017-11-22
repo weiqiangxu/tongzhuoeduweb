@@ -232,6 +232,9 @@
 	margin-left: 13px;
 	padding: 0px;
 }
+.top-menu .taobao-href-wrap:hover a{
+	color: white!important;
+}
 .user-msg .icon-qq{
 	width: 19px;
 	background-image: url(../imgs/04.png);
@@ -633,4 +636,23 @@
 	position: absolute;
 	z-index: -1;
 	left: -50px;
+}
+
+.import-sit .icon-mobile{
+	background-image: url(../imgs/123213133546.png);
+	background-size: 90% 100%;
+
+}
+
+.import-sit .icon-qq{
+	background-image: url(../imgs/04.png);
+	background-size: 100% 100%;
+	width: 16px;
+	margin-right: 2px;
+}
+
+.import-sit .icon-email{
+	background-image: url(../imgs/btm-cion3.jpg);
+	background-size: 100% 100%;
+	margin-right: 2px;
 }
