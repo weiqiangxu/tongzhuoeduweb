@@ -111,7 +111,27 @@
 	margin: 0px;
 	padding-left: 0px;
 }
+.top-menu li .no-light-bott{
+	position: absolute;
+	border: 1px solid white;
+	width: 60%;
+	left: 20%;
+	z-index: 9; 
+	bottom:22px;
+}
+
+.top-menu li .hight-light-bott{
+	position: absolute;
+	border: 1px solid rgb(255,136,39);
+	width: 60%;
+	left: 20%;
+	z-index: 9; 
+	bottom:22px;
+}
+
+
 .top-menu li{
+	position: relative;
 	display: inline-block;
 	min-width: 30px;
 	height: 69px;
@@ -120,6 +140,9 @@
 	padding: 0px 25px;text-align: center;
 }
 .top-menu a{
+	display: inline-block;
+	text-align: middle;
+	position: relative;
 	text-decoration: none;
 }
 .top-menu a:hover{
@@ -145,6 +168,11 @@
 .user-msg-wrap{
 	border-bottom: 2px solid #ccc;
 }
+
+.user-msg-wrap .hight-line{
+	color: rgb(255,136,39);
+	cursor: pointer;
+}
 .user-msg ul{
 	float: right;
 	margin-bottom: 0px;
@@ -166,6 +194,11 @@
 .top-menu li a{
 	color:#666666;
 }
+
+.top-menu a:hover{
+	color: rgb(255,136,39)!important;
+}
+.top-menu .taobao-href:hover{color: rgb(255,255,255)!important;}
 .taobao-href{
 	display: inline-block;
 	width: 150px;
@@ -228,7 +261,7 @@
 	height: 48px;
 	color: rgb(255,255,255);
 }
-.page-des a:hover{background-color: #FA6A00;}
+.page-des a:hover{background-color: #FA6A00;color: rgb(255,255,255)!important;}
 .page-des .active a{
 	background-color: #FA6A00;
 }
@@ -279,8 +312,7 @@
 }
 .login-wrap .head li{
 	float: left;
-	/*display: inline-block;
-	vertical-align: middle;*/
+	cursor: pointer;
 	width: 50%;
 	list-style: none;
 	text-align: center;
@@ -289,10 +321,14 @@
 .login-wrap .head .active{
 	background-color: rgb(88,75,0);
 }
+.login-wrap .body-right{
+	display: none;
+}
+
 .login-wrap .body ul{
 	margin-top: 23px;
 	padding: 0px;
-	margin-bottom: 32px;
+	margin-bottom: 20px;
 }
 .login-wrap .body li{
 	height: 29px;
@@ -315,6 +351,7 @@
 }
 .login-wrap .body .go-btn{
 	text-align: center;
+	margin-top: 39px;
 	width: 175px;
 	height: 45px;
 	background-color: rgb(255,178,0);
@@ -323,6 +360,56 @@
 	border-width: 0px;
 	cursor: pointer;
 }
+.login-wrap .body .login-pre-che .ccchk{
+	width: 12px;
+	vertical-align:middle;
+	height: 14x;
+	margin: 0px;
+	margin-left: 37px;
+	cursor: pointer;
+}
+
+.login-wrap .body .login-pre-che .ccchk:checked{
+
+}
+
+.login-wrap .body-right .enter-you-psd{
+	margin-bottom: 10px;
+}
+
+.login-wrap .body .login-pre-che .cccspan{
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.login-wrap .body .login-pre-che .foget-psd{
+	display: inline-block;
+	margin-left: 73px;
+	color: white;
+}
+.login-wrap .body .login-pre-che .foget-psd:hover{
+	color: rgb(255,139,46)!important;
+}
+
+
+.login-wrap .body .login-pre-che{
+	height: 25px;
+	line-height: 25px;
+	font-size: 10px;
+}
+.login-wrap .body .login-btn{
+	text-align: center;
+	width: 89px;
+	height: 45px;
+	background-color: rgb(255,178,0);
+	color: rgb(255,255,255);
+	font-size: 16px;
+	border-width: 0px;
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+
 .import-sit .icon{
 	width: 19px;
 	height: 18px;

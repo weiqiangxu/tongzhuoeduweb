@@ -18,9 +18,9 @@
                 <ul>
                     <li><i class="icon icon-qq"></i>8000-13691</li>
                     <li class="line">|</li>
-                    <li><i class="icon icon-sign"></i>注册-signup</li>
+                    <li class="hight-line"><i class="icon icon-sign"></i>注册-signup</li>
                     <li class="line">|</li>
-                    <li><i class="icon icon-login"></i>登录-login</li>
+                    <li class="hight-line"><i class="icon icon-login"></i>登录-login</li>
                 </ul>
             </div>
         </div>
@@ -30,11 +30,33 @@
             </div>
             <div class="top-menu">
                 <ul>
-                    <li><a href="javascript:;">首页</a></li>
-                    <li><a class="active" href="javascript:;">雅思提分课程</a></li>
-                    <li><a href="javascript:;">雅思口语外教课程</a></li>
-                    <li><a href="javascript:;">雅思作文批改</a></li>
-                    <li><a href="javascript:;">留学</a></li>
+                    <li>
+                        <a href="javascript:;">首页
+                            <div class="no-light-bott"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active" href="javascript:;">雅思提分课程
+                            <div class="hight-light-bott"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">雅思口语外教课程
+                            <div class="no-light-bott"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            雅思作文批改
+                            <div class="no-light-bott"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            留学
+                            <div class="no-light-bott"></div>
+                        </a>
+                    </li>
                     <li class="taobao-href-wrap">
                         <a class="taobao-href" href="javascript:;"><i class="icon icon-taobao-shop"></i>我们的淘宝店</a>
                     </li>
@@ -55,10 +77,11 @@
             <div class="login-wrap">
                 <div class="head clearfix">
                     <ul>
-                        <li class="active">注册</li><li>登录</li>
+                        <li onmouseover="showOtherBanner('left',this)" class="active">注册</li>
+                        <li onmouseover="showOtherBanner('right',this)">登录</li>
                     </ul>
                 </div>
-                <div class="body">
+                 <div class="body body-left">
                     <ul>
                         <li>已有<span class="num">72,000</span>名学员</li>
                         <li>选择同桌教育</li>
@@ -67,6 +90,21 @@
                     <input type="text" name="" class="form-control" placeholder="请填写密码">
                     <input type="text" readonly name="" class="form-control go-btn" value="免费体验外教课程">
                 </div>
+                <div class="body body-right">
+                    <ul>
+                        <li>同桌每年帮助<span class="num">72,000</span>名学员</li>
+                        <li>达到梦想</li>
+                    </ul>
+                    <input type="text" name="" class="form-control" placeholder="已验证手机">
+                    <input type="text" name="" class="form-control enter-you-psd" placeholder="请输入您的密码">
+                    <div class="login-pre-che">
+                        <input type="checkbox" name="" checked="true" class="ccchk">
+                        <span class="cccspan">下次自动登录</span>
+                        <a href="javascript:;" class="foget-psd">忘记密码</a>
+                    </div>
+                    <input type="text" readonly name="" class="form-control login-btn" value="登录">
+                </div>
+
             </div>
         </div>
     </div>
@@ -325,5 +363,6 @@
     <!-- jQuery -->
     <script src="./resources/javascript/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="./js/common.js"></script>
   </body>
 </html>
