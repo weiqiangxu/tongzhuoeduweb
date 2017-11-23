@@ -112,7 +112,7 @@
 
     	<div class="try-course">
     		<div class="top-title">
-    			<p>体验课程内容</p>
+    			<img src="./imgs/123123234434.png" width="423px" height="91px">
     		</div>
     		<div class="one-step">
     			<div class="title">
@@ -184,7 +184,7 @@
 
         <div class="try-course  bottom-try-curse">
             <div class="top-title">
-                <p>正式课程内容</p>
+                <img src="./imgs/213213123123.png" width="441px" height="105px"/>
             </div>
 
 
@@ -288,22 +288,83 @@
 
             </div>
         </div>
-
-
 	<div class="inner-banner-ji">
         <img src="./imgs/RectangleCopy.png" alt="banner" width="100%">
     </div>
-    
 </div>
-
-
-
-
-
-
-
-
+    <div class="bottom">
+    <div class="inner-bottom">
+        <div class="top">
+            <div class="part">
+                <div class="foot-logo-wrap">
+                    <img src="./imgs/20170125044830946.png" alt="底部logo">
+                </div>
+                <ul class="foot-company-address">
+                    <li>佛山：佛山市禅城区创意产业园29栋505</li>
+                    <li>同桌教育版权所有@粤ICP备14060018</li>
+                </ul>
+            </div>
+            <div class="part-mid part">
+                <ul class="import-sit">
+                    <li>首页</li>
+                    <li class="eng-part">英语同桌</li>
+                    <li>同桌留学</li>
+                    <li>淘宝旗舰店</li>
+                </ul>
+            </div>
+            <div class="part part-rig">
+                <ul class="import-sit">
+                    <li>联系我们</li>
+                    <li><i class="icon icon-mobile"></i>12345678901</li>
+                    <li><i class="icon icon-qq"></i>123456789</li>
+                    <li><i class="icon icon-email"></i>megi@tongzhuoedu.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot">
+            <div class="friend-notic">友情链接</div>
+            <div class="url-notic">
+                <ul>
+                    <li>
+                        <a href="javascript:;">淘宝网</a>
+                        <span>|</span>
+                        <a href="javascript:;">淘宝网</a>
+                        <span>|</span>
+                        <a href="javascript:;">淘宝网</a>
+                        <span>|</span>
+                        <a href="javascript:;">淘宝网</a>
+                        <span>|</span>
+                        <a href="javascript:;">淘宝网</a>
+                        <span>|</span>
+                        <a href="javascript:;">淘宝网</a>
+                        <span>|</span>
+                        <a href="javascript:;">淘宝网</a>
+                        <span>|</span>
+                        <a href="javascript:;">淘宝网</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">百度网</a>
+                        <span>|</span>
+                        <a href="javascript:;">百度网</a>
+                        <span>|</span>
+                        <a href="javascript:;">百度网</a>
+                        <span>|</span>
+                        <a href="javascript:;">百度网</a>
+                        <span>|</span>
+                        <a href="javascript:;">百度网</a>
+                        <span>|</span>
+                        <a href="javascript:;">百度网</a>
+                        <span>|</span>
+                        <a href="javascript:;">百度网</a>
+                        <span>|</span>
+                        <a href="javascript:;">百度网</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
+    </div>
+
     <!-- jQuery -->
     <script src="./resources/javascript/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

@@ -1358,11 +1358,11 @@ a:hover{
 }
 .try-course .top-title{
 	text-align: center;
-	font-size: 25px;
+	font-size: 75px;
 	font-weight: bold;
 	color: #F7394A;
 	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-bottom: 45px;
 }
 
 .try-course .one-step{
@@ -1480,6 +1480,7 @@ a:hover{
 
 .bottom-try-curse{
 	margin-bottom: 115px;
+	margin-top: 75px;
 }
 
 .four-course-tixi{
