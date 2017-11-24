@@ -1,3 +1,30 @@
+.right-button a{
+	display: block;
+	width: 34px;
+	height: 34px;
+	margin: 5px 0;
+	float: right;
+	overflow: hidden;
+}
+.right-button a .three-button{
+	background: url(../imgs/member.png) center no-repeat;
+    background-size: 50%;
+}
+.right-button a div{
+	height: 35px;
+	float: right;
+}
+.right-button-fixed{
+	position: fixed!important;
+    right: 56px!important;
+    z-index: 99!important;
+    top: 35px!important;
+    bottom: 0!important;
+}
+.right-button a .long{
+	width: 63px!important;
+    line-height: 33px;
+}
 .marauto{
 	margin:0 auto;
 }
@@ -64,18 +91,16 @@ a:hover{
 	margin: 0;
 }
 .write_one .info .right-button,.write_two .composition-box .right-button,.write_three .correct-box-content .right-button,.speaking_one .colum-box .right-button{	
-	position: absolute;
-	right: -82px;
-	bottom: 0;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 99;
 }
 .write_one .info .right-button a,.write_two .composition-box .right-button a,.write_three .correct-box-content .right-button a,.speaking_one .colum-box .right-button a{
 	color: white;
 }
 .write_one .info .right-button div,.write_two .composition-box .right-button div,.write_three .correct-box-content .right-button div,.speaking_one .colum-box .right-button div{
-	margin-top: 5px;
-	margin-bottom: 2px;
 	width: 34px;
-	height: 34px;
 }
 .write_one .info .first,.write_two .composition-box .first,.write_three .correct-box-content .first,.speaking_one .colum-box .first{
 	background: url(../imgs/button.png) no-repeat;
@@ -92,9 +117,10 @@ a:hover{
 }
 .write_one .info-2{
 	min-width: 1200px;
-	height: 660px;
+	min-height: 660px;
 	margin:0 auto;
 	background: url(../imgs/45670.png) 45% no-repeat;
+	background-position: center; 
 }
 .write_one .info-2 .regest-button{
 	line-height: 40px;
@@ -354,16 +380,17 @@ a:hover{
 }
 .write_one .get-more img,.write_three .get-more img{
 	width: 100%;
+	min-height: 230px;
 }
 .write_one .get-more,.write_three .get-more{
 	position: relative;
 }
 .write_one .get-more .get-more-button,.write_three .get-more .get-more-button{
     display: inline-block;
-    bottom: 64px;
-    right: 330px;
+    bottom: 65px;
+    right: 323px;
     position: absolute;
-    width: 276px;
+    width: 279px;
     height: 49px;
     opacity: 0;
 }
@@ -483,7 +510,7 @@ a:hover{
 }
 .write_one .enterUs img{
 	width: 100%;
-	height: 410px;
+	min-height: 410px;
 }
 .write_one .enterUs{
 	position: relative;
@@ -633,7 +660,7 @@ a:hover{
 }
 .enterUs img{
 	width: 100%;
-	height: 410px;
+	min-height: 410px;
 }
 .enterUs{
 	position: relative;
@@ -642,16 +669,15 @@ a:hover{
 .write_two .enterUs .enterUs-button{
     display: inline-block;
     height: 90px;
-    width: 305px;
+    width: 235px;
     position: absolute;
     bottom: 109px;
-    left: 652px;
+    left: 489px;
     opacity: 0;
 }
 .write_two .composition-box .right-button,.write_three .correct-box-content .right-button{
-    right: -82px;
-    bottom: 0;
-    top: 171px;
+    right: 20px;
+    bottom: 20px;
 }
 /**批改范例**/
 /**课程答疑**/
@@ -866,6 +892,7 @@ a:hover{
 	width: 100%;
 }
 .speaking_one .colum-pic{
+	min-height: 274px;
 	position: relative;
 }
 .speaking_one .colum-pic-button{
@@ -956,7 +983,8 @@ a:hover{
 	height: 50px;
 }
 .speaking_one .colum-box .right-button{
-	top: 155px;
+	right: 20px;
+	bottom: 20px;
 }
 .speaking_one .enterUs .title-box{
 	position: relative;
@@ -1036,6 +1064,7 @@ a:hover{
 }
 .speaking_three .colum-pic {
     position: relative;
+    min-height: 230px;
 }
 .speaking_three .colum-pic img {
     width: 100%;
@@ -1048,6 +1077,28 @@ a:hover{
     bottom: 64px;
     right: 383px;
     opacity: 0;
+}
+.speaking_three .colum-box .right-button {
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+    z-index: 99;
+}
+.speaking_three .colum-box .right-button .first{
+    background: url(../imgs/button.png) no-repeat;
+    background-size: 34px;
+}
+.speaking_three .colum-box .right-button .second {
+    background: url(../imgs/button2.png) no-repeat;
+    background-size: 34px;
+}
+.speaking_three .colum-box .right-button div{
+    width: 34px;
+}
+.speaking_three .colum-box .right-button .three{
+    line-height: 34px;
+    text-align: center;
+    background-color: #ffc333;
 }
 /**课程答疑**/
 /*提分课程*/
@@ -1879,3 +1930,197 @@ a:hover{
 	font-weight: bold;
 }
 /*口语-琅琊榜*/
+
+
+.speak-res-title{
+	width: 100%;
+	min-width: 1100px;
+	margin-bottom: 62px;
+}
+
+.speak-res-title .sp-top{
+	width: 614px;
+	height: 68px;
+	background-image: url(../imgs/f1sd564fg.png);
+	text-align: center;
+	line-height: 68px;
+	font-weight: bold;
+	margin: 0 auto;
+	font-size: 38px;
+	color: white;
+	margin-top: 69px;
+}
+
+
+.speak-res-title .sp-fot{
+	font-size: 22px;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 26px;
+}
+
+.speak-res-title .sp-fot .click-link{
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 25px;
+	color: white;
+	background-color: rgb(140,193,82);
+	font-size: 18px;
+	border-radius: 20px;
+	font-weight: bold;
+	padding:6px;
+	cursor: pointer;
+	position: relative;
+}
+
+.speak-res-title .sp-fot .click-link .sp-pic{
+	position: absolute;
+	top: 20px;left: 73px;
+	width:43px; height:50px;
+}
+
+.student-res-list{
+	min-width: 1100px;
+	width: 100%;
+	margin-bottom: 120px;
+}
+
+ .student-res-list .student-res-item{
+ 	width: 1100px;
+ 	margin: 0 auto;
+ }
+
+ .student-res-list .head-img{
+ 	width: 200px;
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	position: relative;
+ 	text-align: center;
+ }
+.student-res-list .head-img .student-name{
+	text-align: center;
+	font-size: 20px;
+	color: #4FC1E9;
+}
+ .student-res-list .res-des{
+ 	position: relative;
+ 	width: 840px;
+  	display: inline-block;
+ 	vertical-align: top;
+ 	margin-left: 50px;
+ }
+.student-res-list .student-res-item .head-img img{
+	width: 100px;
+	height: 100px;
+}
+
+.student-res-list .res-des .rrs-top{
+	height: 75px;
+}
+
+.student-res-list .res-des .rrs-top .score{
+   	width: 77px;
+   	display: inline-block;
+   	color: #FF6500;
+   	font-size: 50px;
+   	height: 75px;
+   	line-height: 58px;
+   	text-align: center;
+   	vertical-align: top;
+}
+
+.student-res-list .res-des .rrs-top .rrs-right{
+	width: 300px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.student-res-list .res-des .rrs-top .rrs-right .bbig{
+	height: 35px;
+	line-height: 46px;
+	font-size: 14px;
+	color: #ccc;
+}
+
+.student-res-list .res-des .rrs-top .rrs-right .ssmall{
+	font-size: 6px;
+	color: #ccc;
+	height: 38px;
+	line-height: 10px;
+}
+
+.student-res-list .res-des .much-txt-des{
+	font-size: 18px;
+	color: rgb(85,85,85);
+}
+
+.student-res-list .res-des .img-wrapp{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.student-res-list .res-des .img-wrapp img{
+	margin-right: 35px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+
+.student-res-list .head-rig-radius{
+	width: 23px;
+	height: 23px;
+	border:2px solid #FF6500;
+	border-radius: 23px;
+	position: absolute;
+	top: 28px;
+	right:-15px;
+	z-index: 10;
+	background-color: white;
+}
+
+.res-des .head-rig-line-middle{
+	border-right: 2px solid #FF6500;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	left: -50px;
+}
+
+
+.res-des .head-rig-line-first{
+	border-right: 2px solid #FF6500;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	left: -50px;
+	margin-top: 32px;
+}
+
+.res-des .head-rig-line-last{
+	border-right: 2px solid #FF6500;
+	height: 32px;
+	position: absolute;
+	z-index: -1;
+	left: -50px;
+}
+
+.import-sit .icon-mobile{
+	background-image: url(../imgs/123213133546.png);
+	background-size: 90% 100%;
+
+}
+
+.import-sit .icon-qq{
+	background-image: url(../imgs/04.png);
+	background-size: 100% 100%;
+	width: 16px;
+	margin-right: 2px;
+}
+
+.import-sit .icon-email{
+	background-image: url(../imgs/btm-cion3.jpg);
+	background-size: 100% 100%;
+	margin-right: 2px;
+}

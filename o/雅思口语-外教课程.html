@@ -191,14 +191,18 @@
                         </div>
                     </div>
                     <div class="right-button">
-                        <a href="#">
+                        <a href="javascript:scrollTo(0,0);" class="clearfix jumpToTop">
                             <div class="first"></div>
                         </a>
-                        <a href="#">
-                            <div class="second"></div>
+                        <div class="clearfix"></div>
+                        <a href="#" class="clearfix showLong">
+                            <div class="second short"></div>
+                            <div class="long">咨询助教</div>                       
                         </a>
-                        <a href="#">
-                            <div class="three">注册</div>
+                        <div class="clearfix"></div>
+                        <a href="#" class="clearfix showLong">
+                            <div class="three changeText">注册</div>
+                            <div class="short three-button"></div>
                         </a>
                     </div>
                 </div>
@@ -408,5 +412,10 @@
 <!-- jQuery -->
 <script src="./resources/javascript/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-    <script src="./js/common.js"></script>
+<script src="./js/common.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        FLOATBUTTPN.init();       
+    });
+</script>
 </html>
