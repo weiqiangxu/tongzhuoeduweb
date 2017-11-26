@@ -224,7 +224,7 @@
                     </div>
                 </div> 
                 <div class="detail-wraps" style="">
-                     <div   id="myCarousel" class="carousel slide">
+                     <div id="myCarousel" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="item active">
                                 <img src="./imgs/132123171119012034.png" alt="detail-des" >
@@ -240,7 +240,6 @@
                             </div>
                         </div>
                     </div>  
-                   
                 </div>
             </div>
         </div>
@@ -369,6 +368,7 @@
             $("#myCarousel").carousel($(this).index());
             $(this).parents('.right').find('li').removeClass('active');
             $(this).addClass('active');
+            $('#myCarousel').carousel('pause')
         })
     </script>
   </body>

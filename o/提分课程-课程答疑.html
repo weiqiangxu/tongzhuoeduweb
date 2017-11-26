@@ -389,10 +389,8 @@
 
 
     <script type="text/javascript">
-        $('#identifier').carousel('pause')
         $(".col-bot-slider ul li").on('click',function () {
-            $("#myCarousel").carousel($(this).index());
-            $('#identifier').carousel('pause')
+            $("#myCarousel").carousel($(this).index()-1);
             $(this).parents('.col-bot-slider').find('.iamtxt').removeClass('dess-active');
             $(this).find('.iamtxt').addClass('dess-active');
             $(this).parents('.col-bot-slider').find('.iamyuan').removeClass('active-radiu');
@@ -400,6 +398,7 @@
             $(this).find('.iamyuan').addClass('active-radiu');
             $(this).parents('.col-bot-slider').find('li').removeClass('active');
             $(this).addClass('active');
+            $('#myCarousel').carousel('pause');
         })
     </script>
 
