@@ -208,7 +208,7 @@
         </div>
 
         <div class="future-week">
-            <div class="title">
+            <div class="title" >
                 <img src="./imgs/futureWeek.png" width="758px" height="122px">
             </div>
             <div class="inner-body">
@@ -216,19 +216,34 @@
                     <div class="border-line"></div>
                     <div class="right">
                         <ul>
-                            <li><a href="javascript:;">雅思口语教学</a></li>
+                            <li class="active"><a href="javascript:;">雅思口语教学</a></li>
                             <li><a href="javascript:;">雅思写作教学</a></li>
                             <li><a href="javascript:;">雅思听力教学</a></li>
-                            <li class="active"><a href="javascript:;">雅思阅读教学</a></li>
+                            <li><a href="javascript:;">雅思阅读教学</a></li>
                         </ul>
                     </div>
                 </div> 
-                <div class="detail-wraps">
-                    <img src="./imgs/132123171119012034.png" alt="detail-des" >
+                <div class="detail-wraps" style="">
+                     <div   id="myCarousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="./imgs/132123171119012034.png" alt="detail-des" >
+                            </div>
+                            <div  class="item">
+                              <img src="./imgs/132123171119012034.png" alt="detail-des" >  
+                            </div>
+                            <div  class="item">
+                              <img src="./imgs/132123171119012034.png" alt="detail-des" >  
+                            </div>
+                            <div  class="item">
+                              <img src="./imgs/132123171119012034.png" alt="detail-des" >  
+                            </div>
+                        </div>
+                    </div>  
+                   
                 </div>
             </div>
         </div>
-
 
         <div class="go-suc-step">
             <div class="title">
@@ -349,5 +364,12 @@
     <script src="./resources/javascript/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="./js/common.js"></script>
+    <script type="text/javascript">
+        $(".right ul li").on('click',function () {
+            $("#myCarousel").carousel($(this).index());
+            $(this).parents('.right').find('li').removeClass('active');
+            $(this).addClass('active');
+        })
+    </script>
   </body>
 </html>

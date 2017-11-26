@@ -1505,8 +1505,10 @@ a:hover{
 }
 .one-step .fuyure-week-learn .slider{
 	text-align: center;
-	background-image: url(../imgs/d163273617.png);
-	background-size: 100% 100%;
+	margin:0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 910px;
 }
 .one-step .fuyure-week-learn .slider .bot-tit{
 	color: #ccc;
@@ -1525,6 +1527,7 @@ a:hover{
 	text-align: center;
 	display: inline-block;
 	vertical-align: middle;
+	cursor: pointer;
 }
 
 .one-step .fuyure-week-learn .col-bot-slider  .silent-radiu{
