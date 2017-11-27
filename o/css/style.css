@@ -2175,3 +2175,13 @@ a:hover{
 	font-size: 50px;
 	font-weight:100;
 }
+
+.index-banner{
+	min-width: 1100px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.index-banner img{
+	width: 100%;
+}
