@@ -2180,8 +2180,53 @@ a:hover{
 	min-width: 1100px;
 	text-align: center;
 	margin-top: 10px;
+	position: relative;
 }
 
 .index-banner img{
 	width: 100%;
+}
+
+.shiming-title{
+	position: absolute;
+	bottom: 15%;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	color: rgb(251,115,37);
+}
+
+.shiming-title-two-top{
+	height: 65px;
+	position: absolute;
+	top: 28%;
+	font-size: 45px;
+	text-align: center;
+	width: 100%;
+	color: rgb(255,255,255);
+}
+
+.shiming-title-two-bot{
+	height: 38px;
+	line-height: 38px;
+	position: absolute;
+	top: 45%;
+	font-size: 12px;
+	text-align: center;
+	width: 100%;
+	color: rgb(255,255,255);
+}
+.shiming-title-two-bot .det{
+	margin-right: 15px;
+}
+
+.shiming-title-two-bot .det .icon-checked{
+	display: inline-block;
+	margin-top: -3px;
+	width: 14px;
+	height: 14px;
+	vertical-align: middle;
+	background-image: url(../imgs/123213121128213100.png);
+	background-size: 100% 100%;
 }
