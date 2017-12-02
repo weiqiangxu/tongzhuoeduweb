@@ -2235,7 +2235,27 @@ a:hover{
 	width: 100%;
 	text-align: center;
 	position: absolute;
-	top: 10%;
+	top: 13%;
+	font-size: 28px;
+	font-weight: bold; 
+}
+
+.xuexi-you-tiyan .class-value-has{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 6%;
+	font-size: 28px;
+	font-weight: bold; 
+}
+
+
+
+.xuexi-wu-gulv .class-value-has{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 6%;
 	font-size: 28px;
 	font-weight: bold; 
 }
@@ -2382,22 +2402,24 @@ a:hover{
 .class-value-has-parter{
     width: 100%;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 70px;
 }
 
 .parter-logo-wrap{
-	width: 850px;
+	width: 1100px;
 	margin: 0 auto;
 	text-align: right;
 	margin-top: 35px;
+	padding-left: 42px;
+	padding-right: 42px;
 	margin-bottom: 130px;
 }
 
 .index-banner .parter-logo-wrap img{
-	width: 206px;
-	height: 90px;
+	width: 249px;
+	height: 108px;
 	margin: 1px;
 	border: 1px solid #ccc;
 	display: inline-block;
@@ -2411,8 +2433,7 @@ a:hover{
 }
 
 .rrrrrdiu-txt{
-	position: absolute;
-	bottom: 63px;
+	position: relative;
 	height: 100px;
 	width: 100%;
 }
@@ -2445,6 +2466,7 @@ a:hover{
 	width:50%;
 	float: left;
 	text-align: left;
+	padding-left: 25px;
 }
 
 .rrrrrdiu-txt .right .big{
@@ -2485,4 +2507,176 @@ a:hover{
 }
 .carousel-fade .carousel-inner .next.left,.carousel-fade .carousel-inner .prev.right {
     opacity: 1;
+}
+
+.scoll-banner-wrap{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.scoll-banner-wrap .much-li-wrap{
+	margin: 0px;
+	padding: 0px;
+}
+.scoll-banner-wrap .turn-lef{
+	font-size: 25px;
+	display: inline-block;
+	width: 35px;
+	text-align: center;
+	cursor: pointer;
+	border:1px solid #ddd;
+	color:#ccc;
+	height: 130px;
+	line-height: 130px;
+}
+
+.scoll-banner-wrap .img{
+	display: inline-block;
+	width: 330px;
+	height: 343px;
+	margin: 3px;
+	vertical-align: middle;
+}
+
+.scoll-banner-wrap .turn-rig{
+	font-size: 25px;
+	display: inline-block;
+	width: 35px;
+	cursor: pointer;
+	text-align: center;
+	border:1px solid #ddd;
+	color:#ccc;
+	height: 130px;
+	line-height: 130px;
+}
+
+.radub-back-bo{
+	width: 1020px;
+	padding-top: 66px;
+	margin: 0 auto;
+	background-image: url(../imgs/1231241324.png);
+	height:237px;
+	margin-bottom: 45px;
+}
+
+#chengse-bg{
+	background-color: rgb(244,106,17);
+	color: white;
+	min-height: 476px;
+	margin-top: 0px;
+}
+
+#chengse-bg .class-value-has-parter{
+	margin-top: 0px;
+	padding-top: 32px;
+}
+#chengse-bg .border-lin-bot{
+	border-bottom-color: white;
+}
+
+#chengse-bg .book-wrap{
+	width: 1020px;
+	margin: 0 auto;
+	margin-top: 36px;
+}
+
+#chengse-bg .book-wrap .boot-inde{
+	width: 280px;
+	height: 295px;
+}
+#chengse-bg .book-wrap .boot-center{
+	margin:0 82px;
+}
+
+.one-of-twofive{
+	width: 1098px;
+	background-color: rgb(213,213,213);
+	background-image: url(../imgs/124321432423423.png);
+	height: 344px;
+	margin: 0 auto;
+	background-size: 100%  100%;
+	padding-top: 96px;
+	padding-left: 200px; 
+}
+
+.one-of-twofive-wrap{
+	width: 100%;
+	background-color: rgb(213,213,213);
+}
+
+.line-width-d{
+	width: 200px;
+}
+
+.fengyubang-wrrap{
+	font-size: 25px;
+	font-weight: bold;
+	width: 188px;
+	height: 40px;
+	border:1px solid #ccc;
+	border-radius: 40px;
+	background-color: white;
+	padding-left: 12px;
+	cursor: pointer;
+}
+.one-of-twofive-wrap .one-of-twofive .fengyubang-wrrap .glyphicon{
+	font-size: 19px;
+}
+.fengyubang-wrrap .clik-www{
+	width: 30px;
+	height: 30px;
+	margin: 3px;
+	border:1px solid #ccc;
+	border-radius: 32px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 5px;
+	line-height: 28px;
+	text-align: center;
+}
+
+.one-of-twofive-wrap .one-of-twofive .tttp{
+	color: rgb(245,107,18);
+	margin-bottom: 45px;
+}
+
+.one-of-twofive-wrap .one-of-twofive .tttp .clik-www{
+	border-color: rgb(245,107,18);
+}
+
+
+.one-of-twofive-wrap .one-of-twofive .dddddo{
+	color: rgb(129,129,129);
+}
+
+
+.this-tre-paadr {
+    width: 1100px;
+    background-image: url(../imgs/123123.png);
+    height: 577px;
+    position: relative;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.xuexi-you-tiyan {
+    width: 1100px;
+    background-image: url(../imgs/123124314.png);
+    height: 543px;
+    position: relative;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.xuexi-wu-gulv {
+    width: 1100px;
+    background-image: url(../imgs/123124312.png);
+    height: 484px;
+    position: relative;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
