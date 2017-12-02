@@ -2894,3 +2894,139 @@ a:hover{
 	padding-left: 6px;
 	line-height: 29px;
 }
+.wugulv-foot{
+	width: 580px;
+	height: 65px;
+	margin-top: 25px;
+	margin-left: 273px;
+}
+
+.wugulv-foot .one{
+	display: inline-block;
+	vertical-align: top;
+	width: 159px;
+	font-size: 8px;
+	-webkit-transform-origin-x: 0;
+	padding-top: 3px;
+	padding-left: 3px;
+    -webkit-transform: scale(0.90);
+}
+.wugulv-foot .ye-color{
+	color: rgb(255,143,65);
+}
+
+.wugulv-foot .two{
+	display: inline-block;
+	vertical-align: top;
+	width: 146px;
+	font-size: 8px;
+	-webkit-transform-origin-x: 0;
+	padding-top: 3px;
+    -webkit-transform: scale(0.90);
+    margin-left: 55px;
+}
+
+.wugulv-foot .three{
+	display: inline-block;
+	vertical-align: top;
+	width: 146px;
+	font-size: 8px;
+	-webkit-transform-origin-x: 0;
+	padding-top: 3px;
+    -webkit-transform: scale(0.90);
+    margin-left: 55px;
+}
+.sss-des-fot{
+	width: 600px;
+	height: 175px;
+	margin-top:29px;
+	margin-left: 275px;
+}
+
+.sss-des-fot .one{
+	width: 266px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 8px;
+	-webkit-transform-origin-x: 0;
+    -webkit-transform: scale(0.90);
+}
+
+.sss-des-fot .one .big{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+.sss-des-fot .one .top-two{
+	margin-top: 8px;
+}
+
+.sss-des-fot .two{
+	width: 270px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 8px;
+	-webkit-transform-origin-x: 0;
+    -webkit-transform: scale(0.90);
+    margin-left: 58px;
+}
+
+.sss-des-fot .two .big{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+.sss-des-fot .two .top-two{
+	margin-top: 8px;
+}
+
+/**/
+
+
+.sss-des-fott{
+	width: 600px;
+	height: 175px;
+	margin-top:3px;
+	margin-left: 275px;
+}
+
+.sss-des-fott .one{
+	width: 266px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 8px;
+	-webkit-transform-origin-x: 0;
+    -webkit-transform: scale(0.90);
+}
+
+.sss-des-fott .one .big{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+.sss-des-fott .one .top-two{
+	margin-top: 8px;
+}
+
+.sss-des-fott .two{
+	width: 270px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 8px;
+	-webkit-transform-origin-x: 0;
+    -webkit-transform: scale(0.90);
+    margin-left: 58px;
+}
+
+.sss-des-fott .two .big{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+.sss-des-fott .two .top-two{
+	margin-top: 6px;
+}
