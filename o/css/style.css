@@ -2249,35 +2249,35 @@ a:hover{
     color: #FFFFFF;
 }
 .abrod-box{
-	min-height: 367px;
+	height: 367px;
 }
 .abord-back1{
 	background: url(../imgs/abord-back1.png) center no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
 .abord-back2{
 	background: url(../imgs/abord-back2.png) center no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
 .abord-back3{
 	background: url(../imgs/abord-back3.png) center no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
 .abord-back4{
 	background: url(../imgs/abord-back4.png) center no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
 .abord-back5{
 	background: url(../imgs/abord-back5.png) center no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
 .abord-back6{
 	background: url(../imgs/abord-back6.png) center no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
 .abord-back7{
 	background: url(../imgs/back7.png) center no-repeat;
-	background-size: 102%;
+	background-size: cover;
 }
 .abrod-box-content{
 	min-height: 450px;
