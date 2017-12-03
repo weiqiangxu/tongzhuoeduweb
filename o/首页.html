@@ -300,21 +300,53 @@
 
         <div class="scoll-banner-wrap">
             <ul class="much-li-wrap">
-                <li class="turn-lef">
+                <li class="turn-lef" >
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 </li>
-                <li class="img">
-                    <img src="./imgs/432414312.png">
-                </li>
-                <li class="img">
-                    <img src="./imgs/1241343214.png">
-                </li>
-                <li class="img">
-                    <img src="./imgs/12341243124.png">
-                </li>
-                <li class="turn-rig">
+
+
+
+                <div id="indexCarousel" class="carousel slide carousel-fade ">
+                    <div class="carousel-inner">
+                        <div class="item active first">
+                            <li class="img">
+                                <img src="./imgs/432414312.png">
+                            </li>
+                            <li class="img">
+                                <img src="./imgs/1241343214.png">
+                            </li>
+                            <li class="img">
+                                <img src="./imgs/12341243124.png">
+                            </li>
+                        </div>
+
+                        <div class="item last">
+                            
+                            <li class="img">
+                                <img src="./imgs/1241343214.png">
+                            </li>
+                            <li class="img">
+                                <img src="./imgs/12341243124.png">
+                            </li>
+
+                            <li class="img">
+                                <img src="./imgs/1313.png">
+                            </li>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+                <li class="turn-rig" >
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 </li>
+
+
+
             </ul>
         </div>
 
@@ -417,6 +449,25 @@
     <script src="./resources/javascript/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="./js/common.js"></script>
+    <script type="text/javascript">
+        $(".turn-rig").on('click',function () {
+            if($("#indexCarousel").find(".active").hasClass('last')){
+                return false;
+            }else{
+                $("#indexCarousel").carousel('next')
+                $('#indexCarousel').carousel('pause')
+            }
+        })
 
+        $(".turn-lef").on('click',function () {
+             if($("#indexCarousel").find(".active").hasClass('first')){
+                return false;
+            }else{
+                $("#indexCarousel").carousel('prev');
+                $('#indexCarousel').carousel('pause');
+            }
+           
+        })
+    </script>
   </body>
 </html>

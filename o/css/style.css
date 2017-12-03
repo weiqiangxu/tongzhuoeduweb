@@ -3309,3 +3309,8 @@ p.offset-top{
 	font-size:35px;
 	font-weight: bold;
 }
+
+#indexCarousel{
+	display: inline-block;
+	vertical-align: middle;
+}
