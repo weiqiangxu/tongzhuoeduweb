@@ -3297,3 +3297,15 @@ p.offset-top{
 .sss-des-fott .two .top-two{
 	margin-top: 6px;
 }
+
+.changedddd{
+	width: 52px;
+	height: 52px;
+	margin-right: 8px;
+	background-color: rgb(252,190,0);
+	color: white;
+	line-height: 52px;
+	text-align: center;
+	font-size:35px;
+	font-weight: bold;
+}
