@@ -811,10 +811,15 @@ a:hover{
 	font-family: PingFangSC-Medium;
 	color: #FF6500;
 }
-.speaking_one .colum-content,.speaking_three .colum-content{
-	margin-top: 30px;
+.speaking_one .hhh-ddd-contend{
 	background-image: url(../imgs/123214.png);
 	background-size:90% 101%;
+}
+.speaking_three .colum-content{
+	margin-top: 30px;
+}
+.speaking_one .colum-content{
+	margin-top: 30px;
 }
 .speaking_one .colum-list-left{
 	margin-right: 20px;
