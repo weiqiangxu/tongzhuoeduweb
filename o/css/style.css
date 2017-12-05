@@ -3333,3 +3333,23 @@ p.offset-top{
 	display: inline-block;
 	vertical-align: middle;
 }
+
+.click-link-btnss {
+    position: absolute;
+    left: 54%;
+    top: 61%;
+    background-color: rgb(245,209,0);
+    font-size: 18px;
+    font-weight: bolder;
+    width: 15%;
+}
+
+.click-link-btnz {
+    position: absolute;
+    left: 58%;
+    top: 61%;
+    background-color: rgb(245,209,0);
+    font-size: 16px;
+    font-weight: bolder;
+    width: 15%;
+}
