@@ -3352,3 +3352,47 @@ p.offset-top{
     font-weight: bolder;
     width: 15%;
 }
+
+.zz-i{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 36%;
+}
+
+
+.click-link-btny {
+	display: inline-block;
+	vertical-align: middle;
+    font-size: 26px;
+    width: 328px;
+    text-align: center;
+    font-weight: bolder;
+    height: 70px;
+    line-height:70px;
+    border:2px solid white;
+    color: white;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.uu-i{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 53%;
+}
+.click-link-btnyu {
+	display: inline-block;
+	vertical-align: middle;    
+    font-size: 26px;
+    width: 242px;
+    text-align: center;
+    font-weight: bolder;
+    height: 70px;
+    line-height:70px;
+    border:2px solid white;
+    color: white;
+    border-radius: 35px;
+    cursor: pointer;
+}
