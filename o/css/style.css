@@ -1831,7 +1831,7 @@ a:hover{
 .langyabottom .desc-btn{
 	position: absolute;
 	width: 100%;
-	top: 1px;
+	top: 21%;
 	left: 0px;
 }
 
@@ -1839,7 +1839,6 @@ a:hover{
 	text-align: center;
 	font-size: 28px;
 	color: rgb(255,255,255);
-	margin-top:68px; 
 }
 
 .langyabottom .desc-btn .login-btn{
@@ -1855,7 +1854,7 @@ a:hover{
 	color:#FF6500;
 	border-radius: 6px;
 	box-shadow: 2px 3px 1px 1px rgb(204,116,56);
-	margin-top: 45px;
+	margin-top: 19px;
 }
 
 .langyabottom .ddes{
