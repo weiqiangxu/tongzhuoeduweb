@@ -813,6 +813,8 @@ a:hover{
 }
 .speaking_one .colum-content,.speaking_three .colum-content{
 	margin-top: 30px;
+	background-image: url(../imgs/123214.png);
+	background-size:90% 101%;
 }
 .speaking_one .colum-list-left{
 	margin-right: 20px;
@@ -2703,7 +2705,7 @@ p.offset-top{
 }
 
 .index-banner .parter-logo-wrap img{
-	width: 249px;
+	width: 248px;
 	height: 108px;
 	margin: 1px;
 	border: 1px solid #ccc;
@@ -3190,7 +3192,7 @@ p.offset-top{
 	display: inline-block;
 	vertical-align: top;
 	width: 159px;
-	font-size: 8px;
+	font-size: 12px;
 	-webkit-transform-origin-x: 0;
 	padding-top: 3px;
 	padding-left: 3px;
@@ -3204,7 +3206,7 @@ p.offset-top{
 	display: inline-block;
 	vertical-align: top;
 	width: 146px;
-	font-size: 8px;
+	font-size: 12px;
 	-webkit-transform-origin-x: 0;
 	padding-top: 3px;
     -webkit-transform: scale(0.90);
@@ -3215,7 +3217,7 @@ p.offset-top{
 	display: inline-block;
 	vertical-align: top;
 	width: 146px;
-	font-size: 8px;
+	font-size: 12px;
 	-webkit-transform-origin-x: 0;
 	padding-top: 3px;
     -webkit-transform: scale(0.90);
@@ -3395,4 +3397,7 @@ p.offset-top{
     color: white;
     border-radius: 35px;
     cursor: pointer;
+}
+.small, small {
+    font-size: 12px!important;
 }
