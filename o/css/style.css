@@ -2849,7 +2849,7 @@ p.offset-top{
 	margin: 0 auto;
 	background-image: url(../imgs/1231241324.png);
 	height:237px;
-	margin-bottom: 45px;
+	margin-bottom: 60px;
 }
 
 #chengse-bg{
@@ -3405,4 +3405,11 @@ p.offset-top{
 }
 .small, small {
     font-size: 12px!important;
+}
+.vmcarousel-wrap-wraper{
+	width: 1015px;
+	/*overflow: hidden;*/
+	margin: 0 auto;
+	margin-top: 45px;
+	margin-bottom: 50px;
 }
