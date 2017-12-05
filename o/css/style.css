@@ -1231,13 +1231,22 @@ a:hover{
 .click-link-btn{
 	position: absolute;
 	left: 58%;
-	top: 140px;
+	top: 63%;
 	background-color: rgb(245,209,0);
 	font-size: 14px;
 	font-weight: bolder;
 	width: 18%
 }
 
+.click-link-btns{
+	position: absolute;
+	left: 54%;
+	top: 61%;
+	background-color: rgb(245,209,0);
+	font-size: 18px;
+	font-weight: bolder;
+	width: 19%
+}
 
 .score-one .inner-banner-ji{
 	min-width: 1100px;
@@ -1246,9 +1255,16 @@ a:hover{
 	margin-bottom: 45px;
 	height: 100%;
 	min-height: 245px;
-	background-size: 100% 100%;
-	background-image: url(../imgs/RectangleCopy.png);
 }
+
+
+.score-one .inner-banner-ji .bg-img-s{
+	min-width: 1100px;
+	width: 100%;
+	min-height: 245px;
+}
+
+
 .score-two .inner-banner-ji{
 	min-width: 1100px;
 	position: relative;
@@ -1264,6 +1280,7 @@ a:hover{
 	width: 100%;
 	text-align: center;
 	margin-bottom: 35px;
+	min-width: 1100px;
 }
 .china-foreign .detail .big-title{
 	font-size: 22px;
