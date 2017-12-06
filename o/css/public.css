@@ -54,7 +54,7 @@
 	margin-bottom: 12px;
 }
 .foot-logo-wrap img{
-	height: 68px;
+	height: 55px;
 	width: 198px;
 }
 .foot-company-address{
@@ -216,17 +216,19 @@
 	border-radius: 25px;
 }
 .taobao-href-wrap .icon-taobao-shop{
-	width: 19px;
+	width: 20px;
 	height: 20px;
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 6px;
-	background-image: url(../imgs/04.png);
+	background-image: url(../imgs/31313.png);
+	background-size: 100% 100%;
 }
 .top-menu li .taobao-href{
 	color: #FFFFFF;
 	font-weight: normal;
 	font-size: 14px;
+	font-weight: bold;
 }
 .top-menu .taobao-href-wrap{
 	margin-left: 13px;
@@ -369,6 +371,7 @@
 	font-size: 16px;
 	border-width: 0px;
 	cursor: pointer;
+	opacity: 1;
 }
 .login-wrap .body .login-pre-che .ccchk{
 	width: 12px;
@@ -417,6 +420,7 @@
 	border-width: 0px;
 	cursor: pointer;
 	margin-top: 15px;
+	opacity: 1;
 }
 
 

@@ -10,6 +10,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/public.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="dist/jquery.vm-carousel.css">
+    <script src="js/modernizr.js"></script>
   </head>
   <body>
     <div class="top">
@@ -26,7 +29,7 @@
         </div>
         <div class="menu-wrap">
             <div class="top-logo">
-                <img src="./imgs/toplogo.png" width="292" height="69">
+                <img src="./imgs/tongzhuojiaoyu.png" width="280" height="69">
             </div>
             <div class="top-menu">
                 <ul>
@@ -297,27 +300,33 @@
                 同桌生活
             <div class="border-lin-bot"></div>
         </div>
+    </div>
 
-        <div class="scoll-banner-wrap">
-            <ul class="much-li-wrap">
-                <li class="turn-lef">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                </li>
-                <li class="img">
-                    <img src="./imgs/432414312.png">
-                </li>
-                <li class="img">
-                    <img src="./imgs/1241343214.png">
-                </li>
-                <li class="img">
-                    <img src="./imgs/12341243124.png">
-                </li>
-                <li class="turn-rig">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                </li>
-            </ul>
-        </div>
+    <div class="vmcarousel-wrap-wraper">
+        <ul style="" class="much-li-wrap vmcarousel-normal">
+            <li class="img">
+                <img src="./imgs/432414312.png" width="315">
+            </li>
+            <li class="img">
+                <img src="./imgs/1241343214.png" width="315">
+            </li>
+            <li class="img">
+                <img src="./imgs/12341243124.png" width="315">
+            </li>
+            <li class="img">
+                <img src="./imgs/432414312.png" width="315">
+            </li>
+            <li class="img">
+                <img src="./imgs/1241343214.png" width="315">
+            </li>
+            <li class="img">
+                <img src="./imgs/12341243124.png" width="315">
+            </li>
+        </ul>
+    </div>
 
+
+    <div class="index-banner">
         <div class="radub-back-bo">
             <div class="rrrrrdiu-txt">
                 <div class="left">
@@ -330,16 +339,28 @@
                 </div>
             </div>
         </div>
-
     </div>
-
-
-
-
-
-
-
-
+    <div class="speaking_three">
+        <div class="row-box">
+            <div class="colum-box">
+                <div class="right-button">
+                    <a href="javascript:scrollTo(0,0);" class="clearfix jumpToTop">
+                        <div class="first"></div>
+                    </a>
+                    <div class="clearfix"></div>
+                    <a href="#" class="clearfix showLong">
+                        <div class="second short"></div>
+                        <div class="long">咨询助教</div>                       
+                    </a>
+                    <div class="clearfix"></div>
+                    <a href="#" class="clearfix showLong">
+                        <div class="three changeText">注册</div>
+                        <div class="short three-button"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
      <div class="bottom">
         <div class="inner-bottom">
@@ -364,9 +385,9 @@
                 <div class="part part-rig">
                     <ul class="import-sit">
                         <li>联系我们</li>
-                        <li><i class="icon icon-mobile"></i>12345678901</li>
+                        <li><i class="icon icon-mobile"></i>15918718440</li>
                         <li><i class="icon icon-qq"></i>123456789</li>
-                        <li><i class="icon icon-email"></i>megi@tongzhuoedu.com</li>
+                        
                     </ul>
                 </div>
             </div>
@@ -417,6 +438,24 @@
     <script src="./resources/javascript/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="./js/common.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        FLOATBUTTPN.init();       
+    });
+</script>
+
+<script src="dist/jquery.vm-carousel.js"></script>
+<script type="text/javascript">
+    jQuery(function($){
+          $('.vmcarousel-normal').vmcarousel({
+             centered: false,
+             start_item: 0,
+             autoplay: false,
+             infinite: false
+          });
+       });
+</script>
+
 
   </body>
 </html>
