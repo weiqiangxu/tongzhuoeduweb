@@ -341,6 +341,28 @@
         </div>
     </div>
 
+    <div class="index-right-wechat">
+        <div class="img-wr">
+            <a href="javascript:;"><img src="./imgs/1234124243.png"/></a>
+        </div>
+        <div class="img-wr">
+            <a href="javascript:;"><img src="./imgs/1241343124324.png"/></a>
+        </div>
+        <div id="wechatmsg" class="img-wr">
+            <img src="./imgs/43214324324324.png"/>
+            <div class="wechat-qr">
+                <img src="./imgs/1234123432423.png"/>
+            </div>
+        </div>
+        <div onclick="window.scroll(0,0)" id="go-to-ttop" class="img-wrs">
+            <img src="./imgs/12423423423.png"/>
+        </div>
+    </div>
+
+
+
+
+
      <div class="bottom">
         <div class="inner-bottom">
             <div class="top">
@@ -425,6 +447,22 @@
 
 <script src="dist/jquery.vm-carousel.js"></script>
 <script type="text/javascript">
+
+    $(window).scroll(function(){
+        if($(document).scrollTop()>300){  
+            $('#go-to-ttop').fadeIn();  
+        }else{  
+            $('#go-to-ttop').fadeOut();  
+    }});
+
+$("#wechatmsg").mouseover(function(){
+    $(".wechat-qr").fadeIn();
+});
+$("#wechatmsg").mouseleave(function(){
+    $(".wechat-qr").fadeOut();
+});
+
+
     jQuery(function($){
           $('.vmcarousel-normal').vmcarousel({
              centered: false,

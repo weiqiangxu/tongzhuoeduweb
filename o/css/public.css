@@ -36,18 +36,18 @@
 	height: 160px;
 }
 .inner-bottom .top .part-mid{
-	padding-left: 150px;
+	padding-left: 188px;
 	opacity: 0.8;
 }
 .inner-bottom .top .part-rig{
-	padding-left:135px;
+	padding-left:220px;
 	opacity: 0.8;
 }
 .foot-logo-wrap{
 	background-color: rgb(255,255,255);
 	width:198px;
 	margin-top: 28px;
-	margin-left: 180px;
+	margin-left: 150px;
 	height:68px;
 	line-height: 68px;
 	text-align: center;
@@ -58,7 +58,7 @@
 	width: 198px;
 }
 .foot-company-address{
-	padding-left: 180px;
+	padding-left: 150px;
 	color: #ccc;
 	list-style: none;
 	font-size: 8px;
@@ -440,7 +440,7 @@
 	text-align: center;
 	font-size: 16px;
 	border:1px solid #ccc;
-	margin-left: 180px;
+	margin-left: 150px;
 	margin-top: 15px;
 }
 .url-notic{

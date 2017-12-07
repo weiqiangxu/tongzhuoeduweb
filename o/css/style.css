@@ -3416,3 +3416,48 @@ p.offset-top{
 	margin-top: 45px;
 	margin-bottom: 50px;
 }
+
+.index-right-wechat{
+	width:70px;
+	position: fixed;
+	top: 20%;
+	right: 0px;
+	cursor: pointer;
+}
+
+.index-right-wechat .img-wr{
+	width: 70px;
+	height: 75px;
+	margin-bottom: 1px;
+}
+.index-right-wechat .img-wr img{
+	width: 70px;
+	height: 75px;
+}
+
+.index-right-wechat .img-wrs{
+	display: none;
+	width: 70px;
+	height: 35px;
+	cursor: pointer;
+}
+.index-right-wechat .img-wrs img{
+	width: 70px;
+	height: 50px;
+}
+
+#wechatmsg{
+	position: relative;
+}
+.wechat-qr{
+	display: none;
+	border:1px solid #ccc;
+	position: absolute;
+	right: 80px;
+	top: -118px;
+}
+
+#wechatmsg .wechat-qr img{
+	width: 100px;
+	height: 190px;
+}
