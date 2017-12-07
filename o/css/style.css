@@ -3465,6 +3465,7 @@ p.offset-top{
 	top: 20%;
 	right: 0px;
 	cursor: pointer;
+	z-index: 99;
 }
 
 .index-right-wechat .img-wr{
@@ -3492,11 +3493,12 @@ p.offset-top{
 }
 .wechat-qr{
 	display: none;
-	/*border:1px solid #ccc;*/
 	border-right-width: 10px;
 	position: absolute;
-	right: 80px;
+	right: 60px;
 	top: -118px;
+	width: 110px;
+	height: 190px;
 }
 
 #wechatmsg .wechat-qr img{
