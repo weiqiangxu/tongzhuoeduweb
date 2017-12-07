@@ -2750,7 +2750,10 @@ p.offset-top{
 	padding-right: 42px;
 	margin-bottom: 130px;
 }
-
+.index-banner .parter-logo-wrap a{
+	width: auto;
+	display: inline-block;
+}
 .index-banner .parter-logo-wrap img{
 	width: 248px;
 	height: 108px;
@@ -3467,7 +3470,7 @@ p.offset-top{
 .index-right-wechat .img-wr{
 	width: 70px;
 	height: 75px;
-	margin-bottom: 1px;
+	/*margin-bottom: 1px;*/
 }
 .index-right-wechat .img-wr img{
 	width: 70px;
@@ -3477,7 +3480,6 @@ p.offset-top{
 .index-right-wechat .img-wrs{
 	display: none;
 	width: 70px;
-	height: 35px;
 	cursor: pointer;
 }
 .index-right-wechat .img-wrs img{
@@ -3490,7 +3492,8 @@ p.offset-top{
 }
 .wechat-qr{
 	display: none;
-	border:1px solid #ccc;
+	/*border:1px solid #ccc;*/
+	border-right-width: 10px;
 	position: absolute;
 	right: 80px;
 	top: -118px;
