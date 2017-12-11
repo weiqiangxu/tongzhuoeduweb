@@ -2823,7 +2823,7 @@ p.offset-top{
 
 .rrrrrdiu-txt .left .small{
 	color: white;
-	font-size: 22px;
+	font-size: 22px!important;
 	color: #ccc;
 	width: 126px;
 	float: right;
@@ -2850,7 +2850,7 @@ p.offset-top{
 
 .rrrrrdiu-txt .right .small{
 	color: white;
-	font-size: 22px;
+	font-size: 22px!important;
 	color: white;
 	width: 126px;
 	float: left;
