@@ -2299,14 +2299,24 @@ a:hover{
 
 .shiming-title{
 	position: absolute;
-	bottom: 15%;
+	bottom: 12%;
 	font-size: 35px;
 	font-weight: bold;
 	text-align: center;
 	width: 100%;
-	color: rgb(251,115,37);
+	/*color: rgb(251,115,37);*/
+	background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgb(255, 160, 0)), to(rgb(245, 109, 17)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
+
+.index-banner .jiaoyuchushou-img{
+	padding:0 180px;
+	width: 100%;
+	min-width: 1100px
+}
 .shiming-title-two-top{
 	height: 65px;
 	position: absolute;
