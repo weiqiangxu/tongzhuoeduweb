@@ -1165,7 +1165,7 @@ a:hover{
 
 .score-one .china-foreign .title{
 	text-align: center;
-	padding-top: 75px;
+	padding-top: 100px;
 }
 
 .score-one .china-foreign .detail{
@@ -1182,7 +1182,8 @@ a:hover{
 .score-one .four-most-god{
 	min-width: 1100px;
 	width: 100%;
-	margin-bottom: 35px;
+	margin-bottom: 80px;
+	margin-top: 75px;
 }
 .score-one .four-most-god .title{
 	width: 400px;
@@ -1298,7 +1299,7 @@ a:hover{
 	min-width: 1100px;
 	position: relative;
 	width: 100%;
-	margin-bottom: 45px;
+	margin-bottom: 113px;
 	height: 100%;
 	min-height: 245px;
 }
@@ -1411,7 +1412,8 @@ a:hover{
 
 .go-suc-step{
 	width: 100%;
-	margin-bottom: 35px;
+	margin-bottom: 120px;
+	margin-top: 115px;
 }
 .go-suc-step .title{
 	width: 1100px;
@@ -1675,7 +1677,7 @@ a:hover{
 }
 
 .bottom-try-curse{
-	margin-bottom: 58px;
+	margin-bottom: 180px;
 	margin-top: 75px;
 }
 
@@ -1697,7 +1699,7 @@ a:hover{
 .four-course-tixi .des{
 	width: 1100px;
 	margin: 0 auto;
-	margin-bottom: 60px;
+	margin-bottom: 68px;
 	color: #2A2A2A ;
 }
 .four-course-tixi .des ul{
@@ -1730,7 +1732,7 @@ a:hover{
 .fuyure-week-learn{
 	width: 1100px;
 	margin: 0 auto;
-	margin-bottom: 35px;
+	margin-bottom: 108px;
 }
 .fuyure-week-learn .title{
 	text-align: center;
@@ -1955,7 +1957,7 @@ a:hover{
 	margin: 0 auto;
 	width: 1100px;
 	text-align: center;
-	margin-top: 35px;
+	margin-top: 105px;
 	font-size: 20px;
 	margin-bottom: 60px;
 }
@@ -2020,7 +2022,7 @@ a:hover{
 	cursor: pointer;
 }
 .langyabang{
-	margin-bottom: 95px;
+	margin-bottom: 120px;
 }
 /*提分课程*/
 
@@ -2266,7 +2268,7 @@ a:hover{
 	background-image: url(../imgs/04.png);
 	background-size: 100% 100%;
 	width: 16px;
-	margin-right: 4px;
+	margin-right: 8px;
 
 }
 
