@@ -122,21 +122,19 @@ a:hover{
 	background-color: #ffc333;
 }
 .write_one .info-2{
-	min-width: 1200px;
-	min-height: 660px;
-	margin:0 auto;
-	background: url(../imgs/45670.png) 45% no-repeat;
-	background-position: center; 
+	position: relative;
 }
 .write_one .info-2 .regest-button{
+	position: absolute;
+	bottom: 17px;
+	left: 29%;
 	line-height: 50px;
 	text-align: center;	
 	background: #fe880f;
 	border-radius: 28px;
 	width: 615px;
 	height: 50px;
-	position: relative;
-	top: 584px;
+	/*position: relative;*/
 	margin: 0 auto;
 	font-family: FZLTDHK--GBK1-0;
 	color: #FFFFFF;
@@ -540,14 +538,14 @@ a:hover{
 }
 .write_one .enterUs img{
 	width: 100%;
-	min-height: 410px;
+	/*min-height: 410px;*/
 }
 .write_one .enterUs{
-	background: url(../imgs/enter.png) no-repeat center;
+	/*background: url(../imgs/enter.png) no-repeat center;*/
 	position: relative;
-	height: 390px;
+	/*height: 390px;*/
 	width: 100%;
-	background-size: cover;
+	/*background-size: cover;*/
 }
 .write_one .enterUs .enterUs-button{
 	display: inline-block;
@@ -717,7 +715,7 @@ a:hover{
 }
 .enterUs img{
 	width: 100%;
-	min-height: 410px;
+	/*min-height: 410px;*/
 }
 .enterUs{
 	position: relative;
@@ -960,16 +958,15 @@ a:hover{
 	width: 110px;
 	height: 110px;
 }
-/*.speaking_one .colum-pic img{
+.speaking_one .colum-pic img{
 	width: 100%;
-}*/
+}
 .speaking_one .colum-pic{
-	height: 283px;
 	margin-top: 50px;
 	position: relative;
-	background: url(../imgs/Rectangle402Copy.png) no-repeat center;
+
 	width: 100%;
-	background-size: cover;
+
 }
 .speaking_one .colum-pic-button{
 	position: absolute;
@@ -1069,14 +1066,15 @@ a:hover{
 	bottom: 20px;
 }
 .speaking_one .enterUs .title-box{
-	position: relative;
-	text-align: center;
-	top: 56px;
-	width: 500px;
-	margin: 0 auto;
+	position: absolute;
+    text-align: center;
+    top: 27px;
+    left: 32%;
+    width: 500px;
+    margin: 0 auto;
 }
 .speaking_one .enterUs{
-	height: 410px;
+	/*height: 410px;*/
 	margin-top:19px;
 }
 .speaking_one .enterUs .title-box p{
@@ -1147,15 +1145,11 @@ a:hover{
 .speaking_three .colum-pic {
 	margin-top: 50px;
     position: relative;
-    background: url(../imgs/Rectangle402Copy.png) no-repeat center;
-    background-size: cover;
     width: 100%;
-
-    height: 283px;
 }
-/*.speaking_three .colum-pic img {
+.speaking_three .colum-pic img {
     width: 100%;
-}*/
+}
 .speaking_three .colum-pic-button {
     position: absolute;
     width: 279px;
@@ -2390,22 +2384,19 @@ a:hover{
     font-size: 38px;
     color: #FFFFFF;
 }
-.abrod-box{
-	height: 466px;
-}
-.abord-back1{
+/*.abord-back1{
 	background: url(../imgs/abord-back1.png) center no-repeat;
 	background-size: cover;
-}
-.abord-back2{
+}*/
+/*.abord-back2{
 	background: url(../imgs/abord-back2.png) center no-repeat;
 	background-size: cover;
-}
-.abord-back3{
+}*/
+/*.abord-back3{
 	background: url(../imgs/abord-back3.png) center no-repeat;
 	background-size: cover;
-}
-.abord-back4{
+}*/
+/*.abord-back4{
 	background: url(../imgs/abord-back4.png) center no-repeat;
 	background-size: cover;
 }
@@ -2416,7 +2407,7 @@ a:hover{
 .abord-back6{
 	background: url(../imgs/abord-back6.png) center no-repeat;
 	background-size: cover;
-}
+}*/
 .abord-back7{
 	background: url(../imgs/back7.png) center no-repeat;
 	background-size: cover;
@@ -2424,9 +2415,14 @@ a:hover{
 .abrod-box-content{
 	min-height: 450px;
 }
-.box-content2{
+/*.absolute-box7{
+	position: absolute;
+	top: 0px;
+	left: 12%;
+}*/
+/*.box-content2{
 	height: 570px;
-}
+}*/
 .box-content3{
 	height: 850px;
 	background-color: #384673;
@@ -2451,7 +2447,10 @@ a:hover{
 p.offset-top{
 	margin: 0 auto;
 	position: relative;
-	top: 70px;
+	top: 116px;
+}
+p.offset-top2{
+	top: 66px;
 }
 .abrod-ability{
 	margin: 0 auto;
@@ -3675,16 +3674,7 @@ p.offset-top{
     color: white;
     letter-spacing: 8px;
 }
-.get-more{
-	background: url(../imgs/31314134324324324.png) no-repeat center;
-    background-size: cover;
-    height: 365px;
-    width: 100%;
-}
-.back-img-auto{
-	background: url(../imgs/03a265.png) no-repeat top center;
-	height: 532px!important;
-}
+
 .margin-top-130{
 	margin-top: 130px;
 }
@@ -3773,19 +3763,7 @@ p.offset-top{
 	background: url(../imgs/RectangleCopy.png) no-repeat center;
 	background-size: cover;
 }
-.big-img-wrap-change4{
-	height: 450px;
-	background: url(../imgs/26sf2dgzzz.png) no-repeat;
-	background-size: cover;
-	width: 100%;
-}
-.write_two .enter{
-	background: url(../imgs/enter2.png) no-repeat center;
-    position: relative;
-    height: 330px;
-    width: 100%;
-    background-size: cover;
-}
+
 
 /* add*/
 
@@ -3861,26 +3839,6 @@ p.offset-top{
 	left: 54%;
 }
 
-#yaiskouyu-waijiao-kke{
-	background: url(../imgs/26sf2dgz.png) no-repeat top center;
-    height: 450px;
-    width: 100%;
-    background-size: cover;
-}
-
-#yasizuowei-pigaifanliii{
-	background: url(../imgs/26sf2dgads.png) no-repeat top center;
-    height: 450px;
-    width: 100%;
-    background-size: cover;
-}
-
-#yasizuowei-weius{
-	background: url(../imgs/26sf2imhdg.png) no-repeat top center;
-    height: 450px;
-    width: 100%;
-    background-size: cover;
-}
 #ranggaozhis{
 	width: 1100px;
 	margin: 0 auto;
