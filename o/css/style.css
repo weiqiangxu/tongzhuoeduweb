@@ -2396,9 +2396,31 @@ a:hover{
 	background: url(../imgs/abord-back3.png) center no-repeat;
 	background-size: cover;
 }*/
-/*.abord-back4{
-	background: url(../imgs/abord-back4.png) center no-repeat;
-	background-size: cover;
+.abord-back4{
+	position: relative;
+}
+.abord-back4-button{
+	position: absolute;
+    width: 323px;
+    height: 45px;
+    line-height: 32px;
+    /* background-color: red; */
+    top: 202px;
+    padding: 5px 13px;
+    right: 23%;
+    font-size: 25px;
+    border: 1px solid #D3D3D3;
+    color: #A1A1A1;
+    border-radius: 23px;
+}
+.abord-back4-button a{
+	color: #A1A1A1;
+}
+.abord-back4-check{
+    background: url(../imgs/abord-back4-check.png) no-repeat;
+    padding: 3px 18px;
+    margin-left: 34px;
+    background-size: 35px;
 }
 .abord-back5{
 	background: url(../imgs/abord-back5.png) center no-repeat;
@@ -2407,7 +2429,7 @@ a:hover{
 .abord-back6{
 	background: url(../imgs/abord-back6.png) center no-repeat;
 	background-size: cover;
-}*/
+}
 .abord-back7{
 	background: url(../imgs/back7.png) center no-repeat;
 	background-size: cover;
