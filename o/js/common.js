@@ -36,3 +36,14 @@ FLOATBUTTPN={
         });
     }
 }
+
+//滚动条滚动事件
+$(window).on('scroll',function(){
+    var e=$(window).scrollTop();
+    if(e>40){
+        $(".top-wrap-wrap").css("top","-40px");
+    }else if (0<=e<=40) {
+        $(".top-wrap-wrap").css("top",-e+"px");
+    }
+});
+//end 滚动条滚动事件

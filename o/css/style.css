@@ -3566,7 +3566,7 @@ p.offset-top2{
 .index-right-wechat{
 	width:70px;
 	position: fixed;
-	top: 20%;
+	top: 23%;
 	right: 0px;
 	cursor: pointer;
 	z-index: 99;
@@ -3880,4 +3880,7 @@ p.offset-top2{
     left: 200px;
     height: 610px;
     line-height: 610px;
+}
+.banner-wrapper-we{
+	padding-top: 126px;
 }
