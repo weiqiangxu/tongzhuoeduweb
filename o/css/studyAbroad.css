@@ -1,0 +1,127 @@
+body{
+	min-width: 1200px;
+}
+/*前面6张图片 时间不够-互联网一站式平台*/
+/*.main-img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+@media (max-width: 1200px){
+	.main-img img{
+		display: block;
+		width: 1200px;
+	}
+}*/
+.main-img-1{
+	height: 500px;
+	background: url(../img/studyAbroad/stu-abr1.jpg) no-repeat center;
+}
+.main-img-2{
+	height: 497px;
+	background: url(../img/studyAbroad/stu-abr2.jpg) no-repeat center;
+}
+.main-img-3{
+	height: 500px;
+	background: url(../img/studyAbroad/stu-abr3.jpg) no-repeat center;
+}
+.main-img-4{
+	height: 500px;
+	background: url(../img/studyAbroad/stu-abr4.jpg) no-repeat center;
+}
+.main-img-5{
+	height: 603px;
+	background: url(../img/studyAbroad/stu-abr5.jpg) no-repeat center;
+}
+.main-img-6{
+	height: 636px;
+	background: url(../img/studyAbroad/stu-abr6.jpg) no-repeat center;
+}
+/*end 前面6张图片 时间不够-互联网一站式平台*/
+
+/*标题*/
+.title{
+	font-size: 50px;
+	font-weight: 600;
+	color: #3a4772;
+}
+.title-white{
+	font-size: 50px;
+	font-weight: 600;
+	color: #fff;
+}
+.title-white span{
+	color: #ffbc07;
+}
+.title-appm{
+	font-size: 39px;
+	font-weight: 600;
+	color: #3a4772;
+}
+/*end 标题*/
+
+/*同桌留学 能为你做什么？*/
+.stu-abr7 .stu-abr7-title{
+	text-align: center;
+	padding-top: 80px;
+}
+.stu-abr7 .package{
+	width: 1100px;
+	margin:0 auto;
+	padding-top: 85px;
+	padding-bottom: 160px;
+}
+/*end 同桌留学 能为你做什么？*/
+
+/*同桌规划师 是怎么炼成的！*/
+.stu-abr8{
+	padding-top: 80px;
+	text-align: center;
+	background-color: #f1f1f1;
+}
+/*end 同桌规划师 是怎么炼成的！*/
+
+/*同桌留学 为什么与众不同？*/
+.stu-abr9{
+	padding-top: 80px;
+	text-align: center;
+	background-color: #3a4772;
+}
+/*end 同桌留学 为什么与众不同？*/
+
+/*保障体系*/
+.stu-abr10{
+	padding-top: 80px;
+	text-align: center;
+	background-color: #fff;
+}
+/*end 保障体系*/
+
+/*你负责选择我们, 我们负责结果! */
+.appm{
+	background-color: #f5f5f5;
+	text-align:center;
+	padding-bottom: 40px;
+}
+.appm .appm-title{
+	padding-top: 90px;
+	padding-bottom: 30px;
+}
+.appm a{
+	background-color: #3a4772;
+	border-radius: 10px;
+	line-height: 54px;
+	height: 54px;
+	display: inline-block;
+	padding:0 40px;
+	color: #fff;
+	font-size: 20px;
+	transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-webkit-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+}
+.appm a:hover{
+	background-color: #ff9140;
+}
+/*end 你负责选择我们, 我们负责结果! */
