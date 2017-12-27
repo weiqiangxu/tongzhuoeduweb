@@ -1,4 +1,7 @@
-
+body.modal-open {
+overflow-y: auto !important;
+padding-right: 0 !important;
+}
 .top-wrap-wrap{
 	position: fixed;
 	z-index: 999;
